@@ -123,7 +123,7 @@ elseif s:sinopia_style == 'light'
     hi Question gui=bold guifg=ForestGreen
     hi WarningMsg gui=bold guifg=Red
 
-    hi Comment gui=italic guifg=RoyalBlue3
+    hi Comment gui=bold,italic guifg=Red
     hi Error gui=none guifg=White guibg=Red
     hi Identifier gui=none guifg=Sienna4
     hi Special gui=none guifg=RoyalBlue4
