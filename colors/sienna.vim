@@ -135,7 +135,7 @@ elseif s:sinopia_style == 'light'
     hi Boolean gui=bold guifg=ForestGreen
     hi Constant gui=none guifg=ForestGreen
     hi Number gui=bold guifg=ForestGreen
-    hi String gui=none guifg=ForestGreen
+    hi String gui=none,italic guifg=ForestGreen
 
     hi Label gui=bold,underline guifg=Sienna4
     hi Statement gui=bold guifg=Sienna4
