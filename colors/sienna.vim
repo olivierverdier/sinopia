@@ -10,25 +10,25 @@
 " You can choose the style by adding one of the following lines to your
 " vimrc or gvimrc file before sourcing the color scheme:
 "
-" let g:sienna_style = 'dark'
-" let g:sienna_style = 'light'
+" let g:sinopia_style = 'dark'
+" let g:sinopia_style = 'light'
 "
 " If none of above lines is given, the light style is choosen.
 "
 " You can switch between these styles by using the :Colo command, like
 " :Colo dark or :Colo light (many thanks to Pan Shizhu).
 
-if exists("g:sienna_style")
-    let s:sienna_style = g:sienna_style
+if exists("g:sinopia_style")
+    let s:sinopia_style = g:sinopia_style
 else
-    let s:sienna_style = 'light'
+    let s:sinopia_style = 'light'
 endif
 
-execute "command! -nargs=1 Colo let g:sienna_style = \"<args>\" | colo sienna"
+execute "command! -nargs=1 Colo let g:sinopia_style = \"<args>\" | colo sinopia"
 
-if s:sienna_style == 'dark'
+if s:sinopia_style == 'dark'
     set background=dark
-elseif s:sienna_style == 'light'
+elseif s:sinopia_style == 'light'
     set background=light
 else
     finish
@@ -39,9 +39,9 @@ if exists("syntax_on")
   syntax reset
 endif
 
-let g:colors_name = 'sienna'
+let g:colors_name = 'sinopia'
 
-if s:sienna_style == 'dark'
+if s:sinopia_style == 'dark'
     hi Normal gui=none guifg=Grey85 guibg=Grey15
 
     hi Cursor guifg=Black guibg=Grey85
@@ -94,7 +94,7 @@ if s:sienna_style == 'dark'
     hi htmlBoldUnderline gui=bold,underline
     hi htmlBoldUnderlineItalic gui=bold,underline,italic
     hi htmlUnderlineItalic gui=underline,italic
-elseif s:sienna_style == 'light'
+elseif s:sinopia_style == 'light'
     hi Normal gui=none guifg=Black guibg=White
 
     hi Cursor guifg=White guibg=Black
