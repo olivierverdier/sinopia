@@ -147,4 +147,13 @@ elseif s:sinopia_style == 'light'
     hi htmlBoldUnderline gui=bold,underline
     hi htmlBoldUnderlineItalic gui=bold,underline,italic
     hi htmlUnderlineItalic gui=underline,italic
+
+	hi pythonExceptions gui=bold guifg=#ff4200
+	hi pythonTripleString gui=bold,italic guifg=#980050
+	hi pythonStatement gui=bold guifg=#2500ff
+	hi pythonException gui=bold guifg=#2500ff
+	hi pythonConditional gui=bold guifg=#2500ff
+	hi pythonOperator gui=bold guifg=#2500ff
+	hi pythonRepeat gui=bold guifg=#2500ff
+	hi pythonFunction gui=bold
 endif
