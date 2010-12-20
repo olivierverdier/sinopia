@@ -1,7 +1,9 @@
 " Vim colour scheme
-" Maintainer:	Georg Dahn
-" Last Change:	26 April 2006
-" Version:	1.6
+" Maintainer:	Olivier Verdier
+" https://github.com/olivierverdier/sinopia
+"
+" Color scheme based on sienna by Georg Dahn:
+" http://www.vim.org/scripts/script.php?script_id=1259
 "
 " This color scheme has both light and dark styles with harmonic colors
 " easy to distinguish. Terminals are not supported, therefore you should
