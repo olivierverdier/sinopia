@@ -108,7 +108,7 @@ elseif s:sinopia_style == 'light'
 
     hi FoldColumn gui=none guifg=Black guibg=Wheat2
     hi Folded gui=none guifg=Black guibg=Wheat1
-    hi StatusLine gui=bold guifg=White guibg=Black
+    hi StatusLine gui=bold guifg=Yellow guibg=Black
     hi StatusLineNC gui=none guifg=White guibg=DimGray
     hi VertSplit gui=none guifg=White guibg=DimGray
     hi Wildmenu gui=bold guifg=Black guibg=White
