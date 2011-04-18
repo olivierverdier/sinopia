@@ -126,7 +126,7 @@ elseif s:sinopia_style == 'light'
     hi WarningMsg gui=bold guifg=Red
 
     hi Comment gui=bold,italic guifg=Red
-    hi Error gui=none guifg=White guibg=Red
+    hi Error gui=none guifg=White guibg=LightRed
     hi Identifier gui=none guifg=Sienna4
     hi Special gui=none guifg=RoyalBlue4
     hi PreProc gui=none guifg=RoyalBlue3
