@@ -4,7 +4,7 @@ Color scheme based on the `sienna colour scheme by Georg Dahn`_.
 
 Here is how it looks like in MacVim:
 
-.. image:: https://github.com/olivierverdier/sinopia/raw/master/img/light.png
+.. image:: https://github.com/olivierverdier/sinopia/raw/master/screenshots/light.png
 
 This color scheme has both light and dark styles with harmonic colors
 easy to distinguish. Terminals are not supported, therefore you should
