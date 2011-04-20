@@ -2,7 +2,7 @@ Color scheme based on the `sienna colour scheme by Georg Dahn`_.
 
 .. _sienna colour scheme by Georg Dahn: http://www.vim.org/scripts/script.php?script_id=1259
 
-Here is how it looks like in MacVim:
+Here is how it looks like in MacVim in light background mode (see also the `screenshot page`_):
 
 .. image:: https://github.com/olivierverdier/sinopia/raw/master/screenshots/light.png
 
@@ -24,3 +24,4 @@ You can switch between these styles by using the ``:Colo`` command, like
 
     :Colo dark or :Colo light (many thanks to Pan Shizhu).
 
+.. _screenshot page: https://github.com/olivierverdier/sinopia/tree/master/screenshots
