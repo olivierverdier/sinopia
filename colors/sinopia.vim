@@ -111,7 +111,7 @@ elseif s:sinopia_style == 'light'
     hi StatusLine gui=bold guifg=Yellow guibg=Black
     hi StatusLineNC gui=none guifg=White guibg=DimGray
     hi VertSplit gui=none guifg=White guibg=DimGray
-    hi Wildmenu gui=bold guifg=Black guibg=White
+    hi Wildmenu gui=bold guifg=Black guibg=Yellow
 
     hi Pmenu guibg=Grey65 guifg=Black gui=none
     hi PmenuSbar guibg=Grey50 guifg=fg gui=none
