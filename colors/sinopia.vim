@@ -172,4 +172,6 @@ elseif s:sinopia_style == 'light'
 	hi pythonFunction gui=bold
 	hi pythonDocString gui=bold,italic guifg=DarkMagenta
 	hi pythonDisabled gui=bold,italic guifg=DarkGray
+
+	hi texSectioning gui=bold,italic,underline guifg=Black guibg=LightYellow
 endif
