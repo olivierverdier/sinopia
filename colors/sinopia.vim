@@ -170,4 +170,6 @@ elseif s:sinopia_style == 'light'
 	hi pythonOperator gui=bold guifg=#2500ff
 	hi pythonRepeat gui=bold guifg=#2500ff
 	hi pythonFunction gui=bold
+	hi pythonDocString gui=bold,italic guifg=DarkMagenta
+	hi pythonDisabled gui=bold,italic guifg=DarkGray
 endif
