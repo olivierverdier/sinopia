@@ -108,7 +108,10 @@ if s:sinopia_style == 'dark'
 elseif s:sinopia_style == 'light'
     hi Normal gui=none guifg=Black guibg=White
 
-    hi Cursor guifg=White guibg=Black
+	hi Cursor guifg=white guibg=Red
+	hi iCursor guifg=white guibg=Red
+	hi CursorLine guibg=LightGray
+
     hi LineNr gui=none guifg=DarkGray
     hi NonText gui=bold guifg=DarkGray guibg=Grey95
     hi SpecialKey gui=none guifg=RoyalBlue4
