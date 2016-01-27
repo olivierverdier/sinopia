@@ -113,7 +113,7 @@ elseif s:sinopia_style == 'light'
 	hi CursorLine guibg=LightGray
 
     hi LineNr gui=none guifg=DarkGray
-    hi NonText gui=bold guifg=DarkGray guibg=Grey95
+    hi NonText gui=bold guifg=white guibg=#657b83
     hi SpecialKey gui=none guifg=RoyalBlue4
     hi Title gui=bold guifg=Black
     hi Visual gui=bold guifg=Black guibg=Sienna1
